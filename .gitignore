@@ -1,0 +1,34 @@
+src/*.exe
+src/honestcoin
+src/honestcoind
+src/test_honestcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.honestcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+honestcoin-qt
+Honestcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+honestcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

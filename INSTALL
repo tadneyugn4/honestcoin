@@ -1,0 +1,9 @@
+Building Honestcoin
+
+See doc/readme-qt.rst for instructions on building Honestcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Honestcoin.
+
+See doc/build-*.txt for instructions on building honestcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Honestcoin.
